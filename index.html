@@ -1,45 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mastermind</title>
-    <link rel="stylesheet" href="style.css">
+    <title>BlackWhite</title>
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #cccccc;
+            margin-bottom: 40px;
+        }
+
+        button {
+            width: 220px;
+            padding: 15px;
+            margin: 10px;
+            font-size: 18px;
+            border: 2px solid white;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
 </head>
 
 <body>
 
-    <div class="title-bar">
+    <h1>BlackWhite</h1>
 
-        <h1>Please restart your workstation.</h1>
+    <p>Office Puzzle Collection</p>
 
-        <div class="tooltip">
-        ⓘ
-            <span class="tooltiptext">
-                Guess the secret 4-digit code within 7 rounds.
-                <br><br>
-                ● = Correct number and position
-                <br>
-                ○ = Correct number but wrong position
-                <br><br>
-                Numbers 1-6 only.
-                <br>
-                No repeated numbers.
-            </span>
-        </div>
+    mastermind/
+        <button>Desktop PW</button>
+    </a>
 
-    </div>
+    <br>
 
-    <p>Input 4 numbers in 1 to 6 to unlock.</p>
-
-    <input type="text" id="guessInput" placeholder="Password">
-    <button id="guessBtn">Enter</button>
-
-    <div id="message"></div>
-
-    <div id="history"></div>
-     <button id="restartBtn" style="display:none;">
-    ↻
-    </button>
-    <script src="script.js"></script>
+    tidy-folder/
+        <button>Tidy Folder</button>
+    </a>
 
 </body>
 </html>
