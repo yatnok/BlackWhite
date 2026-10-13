@@ -13,7 +13,7 @@ console.log("Secret:", secretCode);
 
 // Game settings
 let round = 0;
-const maxRounds = 10;
+const maxRounds = 7;
 
 const guessBtn = document.getElementById("guessBtn");
 const guessInput = document.getElementById("guessInput");
